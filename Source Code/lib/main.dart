@@ -46,3 +46,7 @@ class ThirdRoute extends StatelessWidget {
   const ThirdRoute({super.key});
 
   @override
+    Widget build(BuildContext context) {
+    return const ProfilePage();
+  }
+}
